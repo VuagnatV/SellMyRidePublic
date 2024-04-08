@@ -88,6 +88,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "sell-my-ride-public:build:production",
+              "serveTarget": "sell-my-ride-public:serve:production"
+            },
+            "development": {
+              "buildTarget": "sell-my-ride-public:build:development",
+              "serveTarget": "sell-my-ride-public:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sellmyride-408da": {
+      "hosting": {
+        "sell-my-ride-public": [
+          "sellmyridepublic"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sellmyride-408da"
+  }
+}
